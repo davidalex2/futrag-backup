@@ -1,0 +1,4 @@
+package com.futrag.jwtLoginv17.cofig;
+
+public class JwtAuthenticationFilter {
+}

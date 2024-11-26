@@ -1,0 +1,15 @@
+1. Asynchronous and Event Driven − All APIs of Node.js library are asynchronous. It wait the response until the data is retrieved.
+
+2. Very Fast − It can run on various browser's engine, so it is fast.
+
+&nbsp;For example,
+
+Google Chrome: V8 Engine
+Mozilla Firefox: SpiderMonkey Engine
+Microsoft Edge: V8 Engine&nbsp;
+
+3. Single Threaded but Highly Scalable − Node.js uses a single threaded model with event looping. It can handle http request
+
+4. No Buffering − Node.js applications simply output the data in chunks.
+
+5. License − Node.js is released under the MIT license.

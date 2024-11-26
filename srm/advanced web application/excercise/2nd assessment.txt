@@ -1,0 +1,10 @@
+MEAN stands for MongoDB, Express JS, Angular JS, Node JS.
+
+Its composition would make it ideal for complex web packages like social networking platforms, e-commerce sites, online marketplaces, and many more applications.
+Single-page applications, or SPAs: In this context, too, Angular.Js is very well suited for developing clean user experiences.
+
+Real-time internet packages: Node.Js, MongoDB maintains real-time updates in the data and synchronizes the information. It makes the MEAN stack appropriate for games and chat applications that are live-up-to-date.
+
+Enterprise-level applications: Some enterprising applications like CRM, ERP, and supply chain management have to be enterprise-level applications that could further advance with the help of the MEAN stack.
+
+Mobile and web applications: MEAN stack is utilized in order to extend both hybrid cell apps as well as web pages using the same codebase.

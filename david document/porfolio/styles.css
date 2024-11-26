@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+    perspective: 1000px; 
+}
+
+.navbar {
+    background-color: #3498db;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ecf0f1;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #3498db, #8e44ad);
+    color: white;
+}
+.hero-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.my-pic{
+    display: flex;
+    max-height: 500px;
+    max-width: 300px;
+    justify-content: right;
+    justify-items: right;
+    right: 0;
+  
+}
+.img-content{
+    /* border: 4px solid black ; */
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.animate-text {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.animate-text-delay {
+    animation: fadeIn 1s ease-in-out 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about, .skills, .experience, .projects, .contact {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-category {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.skill-category:hover {
+    transform: scale(1.05);
+}
+
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-item {
+    background-color: #fff;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    text-align: left;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+}
+
+.experience-item h3 {
+    margin-bottom: 10px; 
+    color: #3498db; 
+}
+
+.experience-item p {
+    margin-bottom: 5px;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05); 
+}
+
+.project-links a {
+    margin-right: 10px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #3498db;
+    color: white;
+}
+
+.character {
+    width: 50px; 
+    height: 50px; 
+    background-image: url('./david-removebg.png'); 
+    background-size: cover;
+    position: absolute;
+    transition: transform 0.1s ease; 
+    pointer-events: none;
+}
+
